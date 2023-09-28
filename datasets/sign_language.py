@@ -1,7 +1,6 @@
 import random
 import numpy as np
-from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.utils import np_utils
+from tensorflow.keras import utils
 from tensorflow.keras.preprocessing import image
 from os import listdir
 from os.path import isdir, join
